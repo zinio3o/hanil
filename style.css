@@ -1,0 +1,59 @@
+/* style.css */
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px;
+    padding: 0px; 
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.logo{
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.header{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    height: 86px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1200px - 300px);
+}
+
+.nav > li{
+   margin-left: 30px;
+}
+
+.main {
+    position: relative;
+}
+.main .slider {
+    position: absolute;
+    width: 100%;
+}
+
+.main .bg-text{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 300px;
+}
+
+.main .bg-text h1 {
+    font-size: 40px;
+    color: #fff;
+}
+.main .bg-text strong {
+    font-size: 60px;
+    color: #fff
+}
+
