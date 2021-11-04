@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body id="sub1">
+   <!-- header를 불러오기 -->
+   <div id="header-asset"></div>
+   <script>
+     $(function(){
+         $('#header-asset').load('header.html');
+     });
+   </script>
+
+   
+
+    <div id="sub-header">
+        <!-- 배경이미지 -->
+        <div class="bgimg">
+            <div class="imgbg">
+            <div class="sub-container">
+                <h2>회사소개</h2>
+                <div class="lnbbox">
+                    <ul class="lnb">
+                        <li>
+                            <div class="textbox-company">
+                                <a href="#">회사소개</a>
+                            </div></li>
+                        <li><a href="#">CEO 인사말</a></li>
+                        <li><a href="#">연혁 및 조직도</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!-- sub메뉴 -->
+            
+            <div class="lnb-bgbox">
+
+            </div>
+        </div>
+    </div>
+        
+    <section id="content">
+        <div class="content-container">
+            <h3 class="main-title">" 고객 여러분의 건강한 치아는 <span>(주)한일제약</span>이 만들어 나가겠습니다. "</h3>
+            <p>당사는 2002년 창업이래 오로지 치아건강을 위해 <br>
+                반드시 필요한 치약을 연구 개발하는데 전력을 기울었으며, <br>
+                그 결과 어디에서나 그 우수성을 입증 받는 치약을 <br>
+                제조하고 있습니다.
+                </p>
+            <h3 class='rule'>경영방침</h3>
+            <p class="rule-description">신개념의 내실이 튼튼한 기업이 고객의 대한 지원도 튼튼합니다.</p>
+            <div class="main-box">
+                <div class="main-img">
+                    <img src="images/contents-img.jpg" alt="메인1">
+                    <div class="text-box">
+                    <h4>01</h4>
+                    <p>(주)한일제약의 건실한 재무구조는 어떠한 상황에서도 <br>
+                        변함없이 고객 여러분에 대한 지속적인 지원을 <br>
+                        보장하며, 이를 바탕으로 최고의 기업으로 성장하겠습니다.</p>
+                    </div>
+                </div>
+                <div class="main-img">
+                    <img src="images/contents-img2.jpg" alt="메인2">
+                    <div class="text-box">
+                    <h4>02</h4>
+                    <p>(주)한일제약의 제품들은 <br>
+                        끊임없는 신제품 개발과 연구, <br>
+                        그리고 품질관리에서 나옵니다.</p>
+                    </div>
+                </div>
+                <div class="main-img">
+                    <img src="images/contents-img3.jpg" alt="메인3">
+                    <div class="text-box">
+                    <h4>03</h4>
+                    <p>(주)한일제약의 임직원들은 <br>
+                        단 1개의 불량품도 허용하지 않기 위해 <br>
+                        오늘도 최선의 노력을 다하고 있습니다..</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+<!-- footer불러오기 -->
+ <div id="footer-asset"></div>
+ <script>
+   $(function(){
+       $('#footer-asset').load('footer.html');
+   });
+ </script>     
+</body>
+</html>

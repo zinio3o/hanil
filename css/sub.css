@@ -1,0 +1,121 @@
+/* sub.css */
+
+/* sub-header */
+#sub-header .bgimg{
+    width:100%;
+    height:400px;
+    position:relative;
+    padding-top: 116px;
+    box-sizing: content-box;
+    background: #ccc;
+}
+#sub-header .bgimg .imgbg{
+    width:100%;
+    height: 400px;
+    background-image: url(../images/comany.jpg);
+}
+#sub-header .sub-container{
+    width: 1200px;
+    height: 400px;
+    max-width: 1200px;
+    min-width:1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+#sub-header .sub-container h2{
+    color:#fff;
+    padding-top: 130px;
+    font-size:45px;
+    font-weight: 500;
+    /* position:relative; */
+
+}
+
+#sub-header .bgimg .lnb-bgbox{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    background: #000;
+    height: 50px;
+    opacity:0.6;
+}
+#sub-header .bgimg .lnbbox{
+    width: 1200px;
+    height: 50px;
+    position:absolute;
+    bottom:0;
+    z-index:1;
+    
+}
+#sub-header .bgimg .lnbbox .lnb{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+#sub-header .bgimg .lnbbox .lnb > li{
+    width:33.33%;
+    color:#fff;
+}
+.textbox-company{
+    width:400px;
+    height: 50px;
+    background: #fff;
+    color:#000;
+}
+.textbox-company > a{
+    line-height: 50px;
+    font-weight: 500;
+}
+/* main-content */
+.content-container{
+    width:1200px;
+    max-width: 1200px;
+    min-width:1000px;
+    margin:0 auto;
+    text-align: center;
+}
+#content .container h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.main-title{
+    margin-top: 84px;
+    margin-bottom: 87px;
+
+}
+.main-title span{
+    color:var(--main-color);
+}
+.rule{
+    margin-top: 83px;
+    margin-bottom: 75px;
+    color: var(--main-color);
+}
+.rule-description{
+    margin-bottom: 87px;
+}
+.main-box{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+.main-box .main-img{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.main-box .main-img .text-box{
+    width:50%;
+}
+.main-box .main-img .text-box h4{
+    font-size:40px;
+    font-weight: bold;
+    color:var(--main-color);
+    margin-bottom: 40px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품정보</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sub2.css">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body id="sub2">
+   <!-- header를 불러오기 -->
+   <div id="header-asset"></div>
+
+   <script>
+     $(function(){
+         $('#header-asset').load('header.html');
+     });
+   </script>
+    
+    <!--제품정보-->
+    <div id="sub-header">
+        <!-- 배경이미지 -->
+        <div class="bgimg">
+            <div class="imgbg">
+            <div class="sub-container">
+                <h2>제품정보</h2>
+                <div class="lnbbox">
+                    <ul class="lnb">
+                        <li>
+                        <li> <div class="textbox-company">
+                            <a href="#">제품정보</a>
+                        </div></li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!-- sub메뉴 -->
+            
+            <div class="lnb-bgbox">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 검색-->
+    <section class="search1">
+        <div class="container">
+            <div class="search-box">
+                <input type="search" placeholder="제품명을 입력하세요">
+                <a href="#"><i class="product-search fa fa-search"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 제품 -->
+    <div class="container">
+      <div class="pd">
+        <p>전체 ( 37 )</p>
+      </div>
+      
+      <section class="product">
+          <div class="pd1 pd-hover">
+            <div class="product1">
+                <a href="#"><img src="images/product1.jpg"></a>
+                <p>메이치 푸시 치약</p>
+            </div>
+    
+            <div class="product2">
+                <a href="#"><img src="images/product2.jpg"></a>
+                <p>마이매스틱 치약</p>
+            </div>
+
+            <div class="product3">
+                <a href="#"><img src="images/product3.jpg"></a>
+                <p>센텔라 치약</p>
+            </div>    
+        </div>
+
+        <div class="pd2 pd-hover">
+            <div class="product4">
+                <a href="#"><img src="images/product4.jpg">
+                <p>마보덴탈 (미백치약)</p>
+            </div>
+
+            <div class="product5">
+                <a href="#"><img src="images/product5.jpg"></a>
+                <p>흑삼치약</p>
+            </div> 
+
+            <div class="product6">
+                <a href="#"><img src="images/product6.jpg"></a>
+            <p>홍삼치약</p>
+            </div>
+        </div>
+
+        <div class="pd3 pd-hover">
+            <div class="product7">
+                <a href="#"><img src="images/product7.jpg"></a>
+            <p>프로폴리스 치약</p>
+            </div>  
+
+            <div class="product8">
+                <a href="#"><img src="images/product8.jpg"></a>
+            <p>아리랑 치약</p>
+            </div>     
+
+            <div class="product9">
+                <a href="#"><img src="images/product9.jpg"></a>
+            <p>스페셜 자일로스 시리즈</p>
+            </div>
+        </div>
+</section>
+
+<section class="page">
+    <div class="page_wrap">
+        <div class="page_nation">
+           <a href="#" class="active">1</a>
+           <a href="#">2</a>
+           <a href="#">3</a>
+           <a href="#">4</a>
+           <a href="#">5</a>
+           <a class="nnext" href="#"><i class="fa fa-angle-double-right"></i></a>
+           </div>
+        </div>
+        </section>
+    </div>
+
+     <!--푸터-->
+     <div id="footer-asset"></div>
+     <script>
+       $(function(){
+           $('#footer-asset').load('footer.html');
+       });
+     </script> 
+           
+   </body>
+   
+   </html>
